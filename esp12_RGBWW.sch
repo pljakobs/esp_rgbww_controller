@@ -18811,20 +18811,20 @@ by R. Vogg  15.March.2002</description>
 <junction x="27.94" y="10.16"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="RXD" class="0">
 <segment>
 <pinref part="ESP-12" gate="G$1" pin="RXD"/>
-<wire x1="30.48" y1="53.34" x2="30.48" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="SV2" gate="G$1" pin="3"/>
-<wire x1="10.16" y1="53.34" x2="30.48" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="50.8" x2="30.48" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="SV2" gate="G$1" pin="2"/>
+<wire x1="10.16" y1="50.8" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="TXD" class="0">
 <segment>
 <pinref part="ESP-12" gate="G$1" pin="TXD"/>
-<pinref part="SV2" gate="G$1" pin="2"/>
-<wire x1="10.16" y1="50.8" x2="27.94" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="50.8" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="SV2" gate="G$1" pin="3"/>
+<wire x1="10.16" y1="53.34" x2="27.94" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="53.34" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RGB-B" class="0">
