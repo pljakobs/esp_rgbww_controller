@@ -1,0 +1,20 @@
+C1       1000uF 6.3V    E2,5-7
+C2       100n           C0805
+C3       240uF 35V      E2,5-7
+C4       10nF           C0805 
+CIN      4.7uF          1206   
+D1       570mV          SOD-123F
+ESP-12   ESP8266_ESP-12 ESP8266-ESP12
+L1       56uH           IND_NPI75C
+PROG     pin header     MA03-1
+Q1-Q5    AOD2910SMD     DPAK-3
+R1-R11   10k            R0805
+R12      5.9k           R0805
+R13      10k            R0805
+RST      Switch         TACTILE-SWITCH-1101NE
+PRG      Switch         TACTILE-SWITCH-1101NE
+CLR      Switch         TACTILE-SWITCH-1101NE
+U1       TPS5410DR      M08A 
+VCC      Schraubklemme  W237-132
+W        Schraubklemme  W237-133
+RGB      Schraubklemme  W237-4P
