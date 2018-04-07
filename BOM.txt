@@ -3,7 +3,7 @@ C2       100n           C0805
 C3       240uF 35V      E2,5-7
 C4       10nF           C0805 
 CIN      4.7uF          1206   
-D1       570mV          SOD-123F
+D1       PMEG6010CEH115 SOD-123F
 ESP-12   ESP8266_ESP-12 ESP8266-ESP12
 L1       56uH           IND_NPI75C
 PROG     pin header     MA03-1
