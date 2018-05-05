@@ -18680,7 +18680,7 @@ by R. Vogg  15.March.2002</description>
 <part name="CLR" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD-1101NE" value=""/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="C1" library="resistor" deviceset="CPOL-EU" device="E2.5-7"/>
+<part name="C1" library="resistor" deviceset="CPOL-EU" device="E2.5-7" value="440nF"/>
 <part name="CIN" library="AcceleratedDesigns_Lib" deviceset="GRM31CR71H475KA12L" device="" value="4.7uF"/>
 <part name="D1" library="TI_Accelerated_Design_neu" deviceset="B160-13-F" device="" value="570mV"/>
 <part name="L1" library="AcceleratedDesigns_Lib" deviceset="NPI75C560KTRF" device="" value="56uH"/>
@@ -18697,9 +18697,7 @@ by R. Vogg  15.March.2002</description>
 <part name="Q3" library="transistor-fet+irf7201" deviceset="AOD2910" device="" technology="SMD"/>
 <part name="C3" library="resistor" deviceset="CPOL-EU" device="E2.5-7" value="240uF"/>
 <part name="PROG" library="con-lstb" deviceset="MA03-1" device=""/>
-<part name="R14" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="10n"/>
-<part name="C6" library="rcl" deviceset="C-EU" device="C0805" value="1.5p"/>
 <part name="DISABLE" library="pinhead" deviceset="PINHD-1X2" device=""/>
 </parts>
 <sheets>
@@ -18791,9 +18789,7 @@ by R. Vogg  15.March.2002</description>
 <attribute name="VALUE" x="6.223" y="99.5426" size="1.778" layer="96"/>
 </instance>
 <instance part="PROG" gate="G$1" x="2.54" y="50.8"/>
-<instance part="R14" gate="G$1" x="91.44" y="109.22" rot="R90"/>
 <instance part="C5" gate="G$1" x="55.88" y="30.48"/>
-<instance part="C6" gate="G$1" x="91.44" y="91.44"/>
 <instance part="DISABLE" gate="G$1" x="2.54" y="139.7" rot="R180"/>
 </instances>
 <busses>
@@ -18848,6 +18844,7 @@ by R. Vogg  15.March.2002</description>
 <wire x1="55.88" y1="35.56" x2="60.96" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="33.02" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
+<junction x="55.88" y="35.56"/>
 </segment>
 <segment>
 <wire x1="73.66" y1="-5.08" x2="99.06" y2="-5.08" width="0.1524" layer="91"/>
@@ -18918,8 +18915,7 @@ by R. Vogg  15.March.2002</description>
 <wire x1="5.08" y1="83.82" x2="13.97" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="13.97" y1="83.82" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="83.82" x2="78.74" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="83.82" x2="91.44" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="83.82" x2="101.6" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="83.82" x2="101.6" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="83.82" x2="111.76" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="GND_2"/>
 <wire x1="111.76" y1="83.82" x2="116.84" y2="83.82" width="0.1524" layer="91"/>
@@ -18942,9 +18938,6 @@ by R. Vogg  15.March.2002</description>
 <junction x="5.08" y="83.82"/>
 <wire x1="111.76" y1="93.98" x2="111.76" y2="83.82" width="0.1524" layer="91"/>
 <junction x="111.76" y="83.82"/>
-<pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="86.36" x2="91.44" y2="83.82" width="0.1524" layer="91"/>
-<junction x="91.44" y="83.82"/>
 <label x="25.4" y="139.7" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
@@ -18966,15 +18959,15 @@ by R. Vogg  15.March.2002</description>
 <segment>
 <pinref part="ESP-12" gate="G$1" pin="RXD"/>
 <wire x1="30.48" y1="53.34" x2="30.48" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="PROG" gate="G$1" pin="3"/>
-<wire x1="10.16" y1="53.34" x2="30.48" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="PROG" gate="G$1" pin="2"/>
+<wire x1="10.16" y1="50.8" x2="30.48" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TXD" class="0">
 <segment>
 <pinref part="ESP-12" gate="G$1" pin="TXD"/>
-<pinref part="PROG" gate="G$1" pin="2"/>
-<wire x1="10.16" y1="50.8" x2="27.94" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="PROG" gate="G$1" pin="3"/>
+<wire x1="10.16" y1="53.34" x2="27.94" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="50.8" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -19048,6 +19041,7 @@ by R. Vogg  15.March.2002</description>
 <wire x1="60.96" y1="22.86" x2="60.96" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="55.88" y1="22.86" x2="55.88" y2="25.4" width="0.1524" layer="91"/>
+<junction x="55.88" y="22.86"/>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
@@ -19143,9 +19137,8 @@ by R. Vogg  15.March.2002</description>
 <pinref part="D1" gate="A" pin="K"/>
 <pinref part="L1" gate="A" pin="2"/>
 <wire x1="72.39" y1="124.46" x2="78.74" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="124.46" x2="91.44" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="124.46" x2="101.6" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="PH"/>
-<wire x1="91.44" y1="124.46" x2="101.6" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="104.14" x2="72.39" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="72.39" y1="104.14" x2="72.39" y2="124.46" width="0.1524" layer="91"/>
 <junction x="78.74" y="124.46"/>
@@ -19153,9 +19146,6 @@ by R. Vogg  15.March.2002</description>
 <wire x1="68.58" y1="124.46" x2="72.39" y2="124.46" width="0.1524" layer="91"/>
 <junction x="72.39" y="124.46"/>
 <label x="83.82" y="124.46" size="1.778" layer="95"/>
-<pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="114.3" x2="91.44" y2="124.46" width="0.1524" layer="91"/>
-<junction x="91.44" y="124.46"/>
 </segment>
 </net>
 <net name="SENS" class="0">
@@ -19223,13 +19213,6 @@ by R. Vogg  15.March.2002</description>
 <pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="ESP-12" gate="G$1" pin="GPIO15"/>
 <wire x1="43.18" y1="63.5" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="SNUB" class="0">
-<segment>
-<pinref part="R14" gate="G$1" pin="1"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="104.14" x2="91.44" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ENA" class="0">
