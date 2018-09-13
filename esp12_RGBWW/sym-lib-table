@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name esp12_RGBWW-eagle-import)(type Legacy)(uri ${KIPRJMOD}/esp12_RGBWW-eagle-import.lib)(options "")(descr ""))
+)
