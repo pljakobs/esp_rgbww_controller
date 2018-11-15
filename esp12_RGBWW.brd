@@ -3280,19 +3280,11 @@ design rules under a new name.</description>
 <vertex x="43.18" y="13.97"/>
 <vertex x="-1.27" y="13.97"/>
 </polygon>
-<wire x1="22.54" y1="11.75" x2="22.8575" y2="11.1125" width="0.4064" layer="1"/>
-<wire x1="22.8575" y1="11.1125" x2="22.54" y2="11.11" width="0.4064" layer="1"/>
-<wire x1="22.54" y1="11.11" x2="20.32" y2="8.89" width="0.4064" layer="1"/>
 <wire x1="20.32" y1="8.89" x2="14.92" y2="8.89" width="0.4064" layer="1"/>
 <wire x1="22.8575" y1="11.1125" x2="22.86" y2="11.43" width="0.4064" layer="1"/>
 <contactref element="VCC" pad="2"/>
 <contactref element="PROG" pad="1"/>
 <via x="16.51" y="14.605" extent="1-16" drill="0.6"/>
-<wire x1="25.08" y1="8.89" x2="22.8575" y2="11.1125" width="0.4064" layer="1"/>
-<wire x1="18.74" y1="13.43" x2="21.495" y2="13.43" width="0.4064" layer="1"/>
-<wire x1="21.495" y1="13.43" x2="22.225" y2="12.7" width="0.4064" layer="1"/>
-<wire x1="22.225" y1="12.7" x2="22.225" y2="11.745" width="0.4064" layer="1"/>
-<wire x1="22.225" y1="11.745" x2="22.8575" y2="11.1125" width="0.4064" layer="1"/>
 <wire x1="14.92" y1="8.89" x2="13.65" y2="10.16" width="0.4064" layer="1"/>
 <wire x1="13.65" y1="10.16" x2="13.65" y2="9.84" width="0.4064" layer="1"/>
 <wire x1="13.65" y1="9.84" x2="12.7" y2="8.89" width="0.4064" layer="1"/>
@@ -3645,8 +3637,8 @@ design rules under a new name.</description>
 <signal name="B">
 <contactref element="RGB" pad="4"/>
 <contactref element="Q3" pad="4"/>
-<wire x1="21.59" y1="10.16" x2="21.59" y2="9.525" width="2.1844" layer="16"/>
 <wire x1="21.59" y1="9.525" x2="16.51" y2="4.445" width="2.1844" layer="16"/>
+<wire x1="21.59" y1="9.525" x2="21.59" y2="10.16" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$4">
 </signal>
@@ -3680,9 +3672,6 @@ design rules under a new name.</description>
 <wire x1="45.72" y1="22.225" x2="47.3075" y2="22.225" width="0.3048" layer="1"/>
 </signal>
 </signals>
-<errors>
-<approved hash="5,1,62b5c3c7067576f3"/>
-</errors>
 </board>
 </drawing>
 </eagle>

@@ -19227,6 +19227,14 @@ by R. Vogg  15.March.2002</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,-38.4223,78.74,VCC,,,,,"/>
+<approved hash="113,1,115.38,45.72,W,,,,,"/>
+<approved hash="113,1,116.62,12.7,RGB,,,,,"/>
+<approved hash="113,1,7.57767,52.2647,PROG,,,,,"/>
+<approved hash="113,1,3.98523,137.029,DISABLE,,,,,"/>
+<approved hash="115,1,15.24,139.7,GND,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
