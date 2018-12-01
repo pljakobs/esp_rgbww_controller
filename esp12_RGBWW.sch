@@ -18732,7 +18732,7 @@ W = angled&lt;p&gt;
 <part name="C3" library="resistor" deviceset="CPOL-EU" device="E2.5-7" value="240uF"/>
 <part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="10n"/>
 <part name="DISABLE" library="pinhead" deviceset="PINHD-1X2" device=""/>
-<part name="SV1" library="con-lstb" deviceset="MA06-1" device=""/>
+<part name="J1" library="con-lstb" deviceset="MA06-1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18824,7 +18824,7 @@ W = angled&lt;p&gt;
 </instance>
 <instance part="C5" gate="G$1" x="55.88" y="30.48"/>
 <instance part="DISABLE" gate="G$1" x="2.54" y="139.7" rot="R180"/>
-<instance part="SV1" gate="1" x="-2.54" y="53.34"/>
+<instance part="J1" gate="1" x="-2.54" y="53.34"/>
 </instances>
 <busses>
 </busses>
@@ -18930,7 +18930,7 @@ W = angled&lt;p&gt;
 <wire x1="15.24" y1="73.66" x2="22.86" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="73.66" x2="22.86" y2="71.12" width="0.1524" layer="91"/>
 <junction x="15.24" y="45.72"/>
-<pinref part="SV1" gate="1" pin="1"/>
+<pinref part="J1" gate="1" pin="1"/>
 <wire x1="5.08" y1="45.72" x2="15.24" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -18993,7 +18993,7 @@ W = angled&lt;p&gt;
 <segment>
 <pinref part="ESP-12" gate="G$1" pin="RXD"/>
 <wire x1="30.48" y1="53.34" x2="30.48" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="1" pin="4"/>
+<pinref part="J1" gate="1" pin="4"/>
 <wire x1="30.48" y1="53.34" x2="5.08" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -19001,7 +19001,7 @@ W = angled&lt;p&gt;
 <segment>
 <pinref part="ESP-12" gate="G$1" pin="TXD"/>
 <wire x1="27.94" y1="55.88" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="1" pin="5"/>
+<pinref part="J1" gate="1" pin="5"/>
 <wire x1="27.94" y1="55.88" x2="5.08" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
