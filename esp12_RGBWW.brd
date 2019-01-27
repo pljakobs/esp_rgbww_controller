@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.0125" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.003125" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -3049,7 +3049,7 @@ design rules under a new name.</description>
 <elements>
 <element name="C1" library="resistor" package="E2,5-7" value="440nF" x="29.3415125" y="22.3565125" smashed="yes" rot="R225">
 <attribute name="NAME" x="31.31716875" y="21.9075" size="1.27" layer="25" ratio="10" rot="R225"/>
-<attribute name="VALUE" x="24.941184375" y="22.4463125" size="1.27" layer="27" ratio="10" rot="R225"/>
+<attribute name="VALUE" x="29.148059375" y="25.8594375" size="1.27" layer="27" ratio="10" rot="R225"/>
 </element>
 <element name="C2" library="rcl" package="C0805" value="100n" x="1.5875" y="23.495" smashed="yes" rot="MR0">
 <attribute name="NAME" x="5.715" y="22.86" size="1.27" layer="26" rot="MR0"/>
@@ -3069,7 +3069,7 @@ design rules under a new name.</description>
 </element>
 <element name="CLR" library="SparkFun-Electromechanical" package="TACTILE-SWITCH-1101NE" value="" x="23.8125" y="32.7025" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="SWCH-00815" x="23.8125" y="32.7025" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="29.035" y="31.655" size="0.762" layer="25" rot="R180"/>
+<attribute name="NAME" x="29.448125" y="31.670625" size="1.016" layer="25" rot="R180"/>
 <attribute name="VALUE" x="26.8125" y="35.4025" size="0.762" layer="27" rot="R180"/>
 </element>
 <element name="D1" library="TI_Accelerated_Design_neu" package="SMA" value="570mV" x="42.8625" y="26.67" smashed="yes" rot="R90">
@@ -3094,7 +3094,7 @@ design rules under a new name.</description>
 </element>
 <element name="PRG" library="SparkFun-Electromechanical" package="TACTILE-SWITCH-1101NE" value="" x="33.02" y="32.7025" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="SWCH-00815" x="33.02" y="32.7025" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="38.2425" y="31.655" size="0.762" layer="25" rot="R180"/>
+<attribute name="NAME" x="38.8775" y="31.655" size="1.016" layer="25" rot="R180"/>
 <attribute name="VALUE" x="36.02" y="35.4025" size="0.762" layer="27" rot="R180"/>
 </element>
 <element name="Q1" library="transistor-fet+irf7201" package="DPAK-3" value="AOD2910SMD" x="39.37" y="10.16" smashed="yes" rot="MR180">
@@ -3160,7 +3160,7 @@ design rules under a new name.</description>
 </element>
 <element name="RST" library="SparkFun-Electromechanical" package="TACTILE-SWITCH-1101NE" value="" x="42.2275" y="32.7025" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="SWCH-00815" x="42.2275" y="32.7025" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="47.45" y="31.655" size="0.762" layer="25" rot="R180"/>
+<attribute name="NAME" x="48.005625" y="31.655" size="1.016" layer="25" rot="R180"/>
 <attribute name="VALUE" x="45.2275" y="35.4025" size="0.762" layer="27" rot="R180"/>
 </element>
 <element name="U1" library="AcceleratedDesigns_Lib" package="M08A" value="TPS5410DR" x="38.1" y="15.875" smashed="yes">
@@ -3221,14 +3221,13 @@ design rules under a new name.</description>
 <contactref element="R7" pad="1"/>
 <contactref element="ESP-12" pad="3"/>
 <via x="14.605" y="26.3525" extent="1-16" drill="0.6"/>
-<wire x1="17.78" y1="17.78" x2="18.39" y2="17.78" width="0.254" layer="1"/>
-<wire x1="18.39" y1="17.78" x2="18.74" y2="17.43" width="0.254" layer="1"/>
-<wire x1="17.78" y1="17.78" x2="16.51" y2="19.05" width="0.3048" layer="1"/>
-<wire x1="16.51" y1="19.05" x2="16.51" y2="25.7175" width="0.3048" layer="1"/>
+<wire x1="16.51" y1="18.0975" x2="16.51" y2="25.7175" width="0.3048" layer="1"/>
 <wire x1="16.51" y1="25.7175" x2="15.875" y2="26.3525" width="0.3048" layer="1"/>
 <wire x1="15.875" y1="26.3525" x2="14.605" y2="26.3525" width="0.3048" layer="1"/>
 <wire x1="12.6975" y1="26.9875" x2="13.97" y2="26.9875" width="0.3048" layer="16"/>
 <wire x1="13.97" y1="26.9875" x2="14.605" y2="26.3525" width="0.3048" layer="16"/>
+<wire x1="18.74" y1="17.43" x2="17.1775" y2="17.43" width="0.3048" layer="1"/>
+<wire x1="17.1775" y1="17.43" x2="16.51" y2="18.0975" width="0.3048" layer="1"/>
 </signal>
 <signal name="PRG_S" class="5">
 <contactref element="ESP-12" pad="4"/>
@@ -3365,7 +3364,7 @@ design rules under a new name.</description>
 <wire x1="2.665" y1="27.305" x2="2.54" y2="27.43" width="0.3048" layer="1"/>
 <via x="42.8625" y="33.02" extent="1-16" drill="0.6"/>
 <wire x1="39.0525" y1="33.045" x2="39.0775" y2="32.7025" width="0.3048" layer="1"/>
-<wire x1="16.51" y1="27.94" x2="4.7625" y2="27.94" width="0.3048" layer="1"/>
+<wire x1="17.065625" y1="27.94" x2="4.7625" y2="27.94" width="0.3048" layer="1"/>
 <wire x1="4.7625" y1="27.94" x2="4.445" y2="27.6225" width="0.3048" layer="1"/>
 <wire x1="4.445" y1="27.6225" x2="2.7325" y2="27.6225" width="0.3048" layer="1"/>
 <wire x1="2.7325" y1="27.6225" x2="2.54" y2="27.43" width="0.3048" layer="1"/>
@@ -3377,9 +3376,9 @@ design rules under a new name.</description>
 <wire x1="38.735" y1="33.9725" x2="39.0525" y2="33.655" width="0.3048" layer="1"/>
 <wire x1="39.0525" y1="33.655" x2="39.0525" y2="32.7275" width="0.3048" layer="1"/>
 <wire x1="39.0525" y1="32.7275" x2="39.0775" y2="32.7025" width="0.3048" layer="1"/>
-<wire x1="16.51" y1="27.94" x2="17.145" y2="28.575" width="0.3048" layer="1"/>
-<wire x1="17.145" y1="28.575" x2="18.7325" y2="28.575" width="0.3048" layer="1"/>
-<wire x1="18.7325" y1="28.575" x2="19.05" y2="28.8925" width="0.3048" layer="1"/>
+<wire x1="17.065625" y1="27.94" x2="17.541875" y2="28.41625" width="0.3048" layer="1"/>
+<wire x1="17.541875" y1="28.41625" x2="18.57375" y2="28.41625" width="0.3048" layer="1"/>
+<wire x1="18.57375" y1="28.41625" x2="19.05" y2="28.8925" width="0.3048" layer="1"/>
 <wire x1="19.05" y1="28.8925" x2="19.05" y2="33.655" width="0.3048" layer="1"/>
 </signal>
 <signal name="RXD">
@@ -3565,9 +3564,9 @@ design rules under a new name.</description>
 <wire x1="6.0325" y1="27.305" x2="5.3975" y2="26.67" width="0.3048" layer="1"/>
 <wire x1="5.3975" y1="26.67" x2="5.3975" y2="22.5425" width="0.3048" layer="1"/>
 <wire x1="20.6375" y1="32.6775" x2="20.6625" y2="32.7025" width="0.3048" layer="1"/>
-<wire x1="16.51" y1="27.305" x2="17.4625" y2="26.3525" width="0.3048" layer="1"/>
-<wire x1="17.4625" y1="26.3525" x2="24.13" y2="26.3525" width="0.3048" layer="1"/>
-<wire x1="24.13" y1="26.3525" x2="24.765" y2="26.9875" width="0.3048" layer="1"/>
+<wire x1="16.51" y1="27.305" x2="17.383125" y2="26.431875" width="0.3048" layer="1"/>
+<wire x1="17.383125" y1="26.431875" x2="24.209375" y2="26.431875" width="0.3048" layer="1"/>
+<wire x1="24.209375" y1="26.431875" x2="24.765" y2="26.9875" width="0.3048" layer="1"/>
 <wire x1="24.765" y1="26.9875" x2="24.765" y2="30.48" width="0.3048" layer="1"/>
 <wire x1="22.2275" y1="33.335" x2="22.5425" y2="33.02" width="0.3048" layer="16"/>
 <wire x1="22.5425" y1="33.02" x2="22.5425" y2="32.7025" width="0.3048" layer="16"/>
