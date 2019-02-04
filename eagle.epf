@@ -351,8 +351,8 @@ UsedLibrary="C:/Users/cn-0f27dt-f1167-1bi-/Documents/eagle/lbr/TI_AcceleratedDes
 
 [Win_1]
 Type="Control Panel"
-Loc="-1237 118 -136 649"
-State=2
+Loc="0 40 1919 1176"
+State=3
 Number=0
 
 [Desktop]
