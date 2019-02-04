@@ -18676,12 +18676,12 @@ by R. Vogg  15.March.2002</description>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="R10" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="100p"/>
 <part name="CLR" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="SMD-1101NE" value=""/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="C1" library="resistor" deviceset="CPOL-EU" device="E2.5-7" value="440nF"/>
-<part name="CIN" library="AcceleratedDesigns_Lib" deviceset="GRM31CR71H475KA12L" device="" value="4.7uF"/>
+<part name="C1" library="resistor" deviceset="CPOL-EU" device="E2.5-7" value="470µF"/>
+<part name="CIN" library="AcceleratedDesigns_Lib" deviceset="GRM31CR71H475KA12L" device="" value="4.7µF"/>
 <part name="D1" library="TI_Accelerated_Design_neu" deviceset="B160-13-F" device="" value="570mV"/>
 <part name="L1" library="AcceleratedDesigns_Lib" deviceset="NPI75C560KTRF" device="" value="56uH"/>
 <part name="U1" library="AcceleratedDesigns_Lib" deviceset="TPS5410DR" device="" value="TPS5410DR"/>
@@ -18695,9 +18695,9 @@ by R. Vogg  15.March.2002</description>
 <part name="Q5" library="transistor-fet+irf7201" deviceset="AOD2910" device="" technology="SMD"/>
 <part name="Q4" library="transistor-fet+irf7201" deviceset="AOD2910" device="" technology="SMD"/>
 <part name="Q3" library="transistor-fet+irf7201" deviceset="AOD2910" device="" technology="SMD"/>
-<part name="C3" library="resistor" deviceset="CPOL-EU" device="E2.5-7" value="240uF"/>
+<part name="C3" library="resistor" deviceset="CPOL-EU" device="E2.5-7" value="220µF"/>
 <part name="PROG" library="con-lstb" deviceset="MA03-1" device=""/>
-<part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="10n"/>
+<part name="C5" library="rcl" deviceset="C-EU" device="C0805" value="10p"/>
 <part name="DISABLE" library="pinhead" deviceset="PINHD-1X2" device=""/>
 </parts>
 <sheets>
@@ -18751,13 +18751,13 @@ by R. Vogg  15.March.2002</description>
 </instance>
 <instance part="R8" gate="G$1" x="35.56" y="-2.54" rot="R90"/>
 <instance part="GND14" gate="1" x="43.18" y="-15.24"/>
-<instance part="C1" gate="G$1" x="111.76" y="99.06" smashed="yes">
-<attribute name="NAME" x="107.823" y="94.4626" size="1.778" layer="95"/>
-<attribute name="VALUE" x="112.903" y="94.4626" size="1.778" layer="96"/>
+<instance part="C1" gate="G$1" x="111.76" y="99.06" smashed="yes" rot="MR0">
+<attribute name="NAME" x="115.697" y="94.4626" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="110.617" y="94.4626" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="CIN" gate="A" x="13.97" y="101.6" smashed="yes" rot="R270">
-<attribute name="NAME" x="10.922" y="97.282" size="2" layer="95" rot="R180"/>
-<attribute name="VALUE" x="10.922" y="101.854" size="2" layer="96" rot="R180"/>
+<instance part="CIN" gate="A" x="13.97" y="111.76" smashed="yes" rot="R270">
+<attribute name="NAME" x="10.922" y="107.442" size="2" layer="95" rot="R180"/>
+<attribute name="VALUE" x="10.922" y="112.014" size="2" layer="96" rot="R180"/>
 </instance>
 <instance part="D1" gate="A" x="78.74" y="116.84" smashed="yes" rot="R270">
 <attribute name="NAME" x="81.28" y="120.65" size="2" layer="95"/>
@@ -18784,9 +18784,9 @@ by R. Vogg  15.March.2002</description>
 <instance part="Q5" gate="G$1" x="93.98" y="27.94"/>
 <instance part="Q4" gate="G$1" x="93.98" y="7.62"/>
 <instance part="Q3" gate="G$1" x="93.98" y="-12.7"/>
-<instance part="C3" gate="G$1" x="5.08" y="104.14" smashed="yes">
-<attribute name="NAME" x="1.143" y="99.5426" size="1.778" layer="95"/>
-<attribute name="VALUE" x="6.223" y="99.5426" size="1.778" layer="96"/>
+<instance part="C3" gate="G$1" x="5.08" y="104.14" smashed="yes" rot="MR0">
+<attribute name="NAME" x="9.017" y="99.5426" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="3.937" y="99.5426" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="PROG" gate="G$1" x="2.54" y="50.8"/>
 <instance part="C5" gate="G$1" x="55.88" y="30.48"/>
@@ -18922,7 +18922,7 @@ by R. Vogg  15.March.2002</description>
 <wire x1="27.94" y1="104.14" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="104.14" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="CIN" gate="A" pin="1"/>
-<wire x1="13.97" y1="93.98" x2="13.97" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="13.97" y1="104.14" x2="13.97" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="D1" gate="A" pin="A"/>
 <wire x1="78.74" y1="109.22" x2="78.74" y2="83.82" width="0.1524" layer="91"/>
 <junction x="13.97" y="83.82"/>
@@ -19019,7 +19019,7 @@ by R. Vogg  15.March.2002</description>
 <wire x1="13.97" y1="124.46" x2="5.08" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="CIN" gate="A" pin="2"/>
 <wire x1="5.08" y1="124.46" x2="0" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="13.97" y1="109.22" x2="13.97" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="13.97" y1="119.38" x2="13.97" y2="124.46" width="0.1524" layer="91"/>
 <junction x="13.97" y="124.46"/>
 <label x="0" y="124.46" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="C3" gate="G$1" pin="+"/>
