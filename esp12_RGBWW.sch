@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -18791,10 +18791,10 @@ DIN A4, landscape with extra doc field</description>
 <instance part="P+2" gate="1" x="137.16" y="81.28"/>
 <instance part="P+3" gate="1" x="142.24" y="53.34"/>
 <instance part="GND2" gate="1" x="104.14" y="45.72"/>
-<instance part="GND3" gate="1" x="20.32" y="116.84"/>
-<instance part="P+4" gate="1" x="20.32" y="134.62"/>
-<instance part="VCC" gate="-1" x="25.4" y="127" rot="R180"/>
-<instance part="VCC" gate="-2" x="25.4" y="121.92" rot="R180"/>
+<instance part="GND3" gate="1" x="12.7" y="152.4"/>
+<instance part="P+4" gate="1" x="12.7" y="170.18"/>
+<instance part="VCC" gate="-1" x="17.78" y="162.56" rot="R180"/>
+<instance part="VCC" gate="-2" x="17.78" y="157.48" rot="R180"/>
 <instance part="W" gate="-1" x="147.32" y="78.74" rot="R180"/>
 <instance part="W" gate="-2" x="147.32" y="86.36" rot="R180"/>
 <instance part="W" gate="-3" x="147.32" y="93.98" rot="R180"/>
@@ -18964,7 +18964,7 @@ DIN A4, landscape with extra doc field</description>
 <segment>
 <pinref part="VCC" gate="-2" pin="KL"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="20.32" y1="121.92" x2="20.32" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="157.48" x2="12.7" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="-"/>
@@ -19073,7 +19073,7 @@ DIN A4, landscape with extra doc field</description>
 <segment>
 <pinref part="VCC" gate="-1" pin="KL"/>
 <pinref part="P+4" gate="1" pin="+12V"/>
-<wire x1="20.32" y1="127" x2="20.32" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="162.56" x2="12.7" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="VIN"/>
@@ -19085,8 +19085,8 @@ DIN A4, landscape with extra doc field</description>
 <junction x="59.69" y="157.48"/>
 <label x="45.72" y="157.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="C3" gate="G$1" pin="+"/>
-<wire x1="50.8" y1="139.7" x2="50.8" y2="157.48" width="0.1524" layer="91"/>
 <junction x="50.8" y="157.48"/>
+<wire x1="50.8" y1="139.7" x2="50.8" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
