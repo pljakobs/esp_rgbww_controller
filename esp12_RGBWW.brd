@@ -83,7 +83,7 @@
 <dimension x1="-1.27" y1="0" x2="-1.27" y2="34.915" x3="-6.35" y3="17.4575" textsize="1.778" layer="47"/>
 <dimension x1="-1.27" y1="0" x2="49.53" y2="0" x3="24.13" y3="-8.89" textsize="1.778" layer="47"/>
 <text x="19.777990625" y="28.482009375" size="1.016" layer="25">TXD</text>
-<text x="20.701" y="24.511" size="1.016" layer="25" rot="R45">RXD</text>
+<text x="20.54225" y="24.907875" size="1.016" layer="25" rot="R45">RXD</text>
 <text x="30.665984375" y="29.448125" size="1.016" layer="25">GND</text>
 <text x="-0.3175" y="0.635" size="1.27" layer="25">VCC</text>
 <text x="5.715" y="0.635" size="1.27" layer="25">R</text>
@@ -117,12 +117,12 @@
 <wire x1="25.4" y1="0" x2="49.2125" y2="0" width="0.6096" layer="46"/>
 <dimension x1="51.67" y1="-6.1575" x2="-1.27" y2="-6.35" x3="25.220796875" y3="-11.97329375" textsize="1.778" layer="47"/>
 <dimension x1="-1.3" y1="40.8525" x2="-1.3" y2="-6.0575" x3="-11.43" y3="17.3975" textsize="1.778" layer="47"/>
-<text x="23.256875" y="24.209375" size="1.016" layer="25">G2</text>
-<text x="25.87625" y="24.209375" size="1.016" layer="25">G0</text>
-<text x="30.1625" y="24.765" size="1.016" layer="25">G16</text>
-<wire x1="25.4" y1="27.94" x2="22.86" y2="27.94" width="0.3048" layer="25"/>
-<wire x1="22.86" y1="27.94" x2="22.225" y2="27.305" width="0.3048" layer="25"/>
-<wire x1="25.4" y1="27.94" x2="26.035" y2="28.575" width="0.3048" layer="25"/>
+<text x="22.86" y="25.161875" size="1.016" layer="25" rot="R270">G2</text>
+<text x="30.95625" y="25.479375" size="1.016" layer="25">G0</text>
+<text x="25.479375" y="25.320625" size="1.016" layer="25" rot="R270">G16</text>
+<wire x1="25.4" y1="27.94" x2="22.86" y2="27.94" width="0.254" layer="25"/>
+<wire x1="22.86" y1="27.94" x2="22.225" y2="27.305" width="0.254" layer="25"/>
+<wire x1="25.4" y1="27.94" x2="26.035" y2="28.575" width="0.254" layer="25"/>
 </plain>
 <libraries>
 <library name="resistor">
@@ -3147,7 +3147,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="44.1325" y="23.495" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="JP1" library="adafruit" package="2X03" value="" x="27.94" y="27.94" smashed="yes">
-<attribute name="NAME" x="20.32" y="23.495" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="20.32" y="22.86" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="22.86" y="23.495" size="1.27" layer="27"/>
 </element>
 </elements>
