@@ -348,6 +348,7 @@ UsedLibrary="C:/Program Files/Eagle/lbr/xilinx-xcv.lbr"
 UsedLibrary="C:/Program Files/Eagle/lbr/zetex.lbr"
 UsedLibrary="C:/Program Files/Eagle/lbr/zilog.lbr"
 UsedLibrary="C:/Users/cn-0f27dt-f1167-1bi-/Documents/eagle/lbr/TI_AcceleratedDesigns/AcceleratedDesigns_Lib.lbr"
+UsedLibrary="fhem.logo.lbr"
 
 [Win_1]
 Type="Control Panel"
